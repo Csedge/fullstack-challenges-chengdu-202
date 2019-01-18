@@ -1,0 +1,22 @@
+/* Your tabs CSS code here */
+.tabs{
+  display: flex;
+  align-items: center;
+}
+
+.tab{
+  font-size:18px;
+  font-weight:normal;
+  text-decoration:none;
+  color:rgba(144, 144, 144, 0.6);
+  padding:10px;
+}
+
+.tab:hover{
+  color:black;
+}
+
+.tab.active{
+  border-bottom:5px solid #48A799;
+  color:black;
+}

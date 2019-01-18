@@ -1,0 +1,65 @@
+.inbox {
+  padding-left: 0px;
+  list-style: none;
+}
+.message {
+  /* Your turn to design a flexbox message */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:    1px solid  #DCE0E0;
+    flex-grow:1;
+}
+
+
+.inbox{
+  border: 1px solid  #DCE0E0;
+  padding:0 20px;
+}
+
+
+.message:last-child{
+  border-bottom: none;
+}
+
+.message-name{
+  /*width: 100px;*/
+  margin-left: 8px;
+  flex: 0 1 10%;
+}
+
+.message-name h3{
+  font-size: 13px;
+}
+
+.message-name p{
+  opacity: 0.8;
+  font-size: 12px;
+}
+
+.message-body p{
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.message-body{
+  flex-grow:1;
+  text-align:left;
+  margin-left: 10px;
+}
+
+.status{
+  flex: 0 1 10%;
+}
+
+.status.accepted{
+  color:#3A8359;
+}
+
+.status.pending{
+  color:#D3D3D4;
+}
+
+.status.declined{
+  color:#ED462F;
+}

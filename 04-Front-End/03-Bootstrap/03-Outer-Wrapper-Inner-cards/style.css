@@ -1,0 +1,37 @@
+body {
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 1.4;
+}
+h2 {
+  font-weight: 200;
+  font-size: 25px;
+  margin:0px;
+}
+
+.wrapper-blue{
+  background-color: #3079AA;
+  color: white;
+  padding: 30px;
+}
+
+.wrapper-grey{
+  background-color: #EDEFF0;
+  padding: 30px;
+}
+
+.card-white{
+  background-color: white;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  box-shadow: 1px 1px 2px #e7e7e7;
+  border-radius: 4px;
+  margin: 20px 50px;
+}
+#header {
+  color: #828282;
+  padding: 50px;
+}

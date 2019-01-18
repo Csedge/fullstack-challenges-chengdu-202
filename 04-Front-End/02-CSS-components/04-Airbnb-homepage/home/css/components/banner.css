@@ -1,0 +1,26 @@
+/* Your banner CSS file */
+.banner{
+  height: 100vh; /* 1vh => 1% of viewport height */
+  display: flex;
+  align-items: center; /*FOR THE VERTICAL AXIS*/
+  justify-content: space-around; /*FOR THE HORIZONTAL AXIS*/
+  background-size: cover;  /*cover the background */
+  text-align: center;
+
+}
+
+.banner-flat-filter {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/background.jpg');
+}
+
+.banner h1{
+  color:white;
+  font-size:250%;
+  margin-bottom: 4%;
+}
+.banner h3{
+  color:rgba(251, 249, 249, 0.8);
+  font-weight:400;
+  margin-bottom: 5%;
+  font-size: 25px;
+}

@@ -1,0 +1,17 @@
+<h1>Hacker News</h1>
+
+# TODO: list posts here. You can use instance variables set in the controller (app.rb)
+
+
+
+
+<h3>Top Posts</h3>
+
+
+<% @sorted_post = @all_posts.sort { |a, b| b.votes <=> a.votes } %>
+<% @sorted_post.each do |t| %>
+  <ul>
+    <li> Title: Up votes: <%=t.votes%> <a href="<%=t.url%>"> <%=t.name%> </a>
+    </li>
+  </ul>
+ <%end%>

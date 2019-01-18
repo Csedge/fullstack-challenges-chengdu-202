@@ -1,0 +1,63 @@
+/* Colors and Fonts */
+
+body{
+  background: rgb(237,244,237);
+  background: linear-gradient(90deg, rgba(237,244,237,1) 0%, rgba(206,231,230,1) 100%);
+/*  font-family: 'Black And White Picture', sans-serif;
+
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+  color: :#7C7C7C;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+
+h2, h3{
+  font-family: 'Dosis', sans-serif;
+  color: #A491D3;
+}
+
+h1{
+  color: #A491D3;
+  font-size: 30px;
+
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 300;
+  color: #639FAB
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+  color: #7C7C7C
+}
+
+a{
+  color: #7C7C7C;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #639FAB;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}

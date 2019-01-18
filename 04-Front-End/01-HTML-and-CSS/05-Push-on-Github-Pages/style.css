@@ -1,0 +1,182 @@
+/* Colors and Fonts */
+
+body{
+  background: rgb(237,244,237);
+  background: linear-gradient(90deg, rgba(237,244,237,1) 0%, rgba(206,231,230,1) 100%);
+/*  font-family: 'Black And White Picture', sans-serif;
+
+font-family: 'Open Sans', sans-serif;*/
+font-family: 'Dosis', sans-serif;
+font-weight: 300;
+color: :#7C7C7C;
+font-size: 15px;
+line-height: 1.6em;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #7C7C7C;
+}
+
+h2, h3{
+  font-family: 'Dosis', sans-serif;
+  color: #A491D3;
+}
+
+h1{
+  color: #A491D3;
+  font-size: 30px;
+
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 300;
+  color: #639FAB
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+  color: #7C7C7C
+}
+
+a{
+  color: #7C7C7C;
+  text-decoration: none;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+a:hover{
+  color: #639FAB;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+td{
+  vertical-align: top;
+}
+
+
+
+
+.movie_title{
+  font-family: 'Dosis', sans-serif;
+  color: :#7C7C7C;
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+.home-card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-green {
+  background-color: #A7C4B5;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-green i{
+  padding-right: 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.movie_img{
+  width: 120px;
+  margin-right: 30px;
+  margin-block-end: 25px;
+  /*vertical-align: top;*/
+}
+
+#profile{
+  border-radius: 50%;
+  border: 3px solid #72705B;
+  /*display: center;*/
+}
+
+#favorite_movies{
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1.6em;
+  font-family: 'Dosis', sans-serif;
+  color: #72705B;
+}
+
+#footer{
+  text-align: center;
+
+}
+
+
+.footer_icon{
+  font-size: 25px;
+}
+
+.container{
+  width: 720px;
+  margin: 30px auto;
+}
+
+.social_font{
+  font-size: 35px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+}
